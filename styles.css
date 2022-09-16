@@ -1,0 +1,61 @@
+body{
+  text-align : center;
+  background-color:  #000033;
+}
+h1{
+  font-size: 100px;
+  margin : 20px auto;
+  font-family : myFont;
+  color: #fff;
+}
+h3{
+  font-size : 25px;
+  margin : auto auto 30px auto;
+  font-family : myFont;
+  color: #fff;
+}
+@font-face {
+  font-family : myFont;
+  src : url(sounds/ARCADE.TTF);
+}
+/* Button */
+.b1{
+  background-color: green;
+}
+.b2{
+  background-color: red;
+}
+
+.b3{
+  top: 215px;
+  left: 219px;
+  background-color: yellow;
+}
+.b4{
+  top: 215px;
+  right: 219px;
+  background-color: blue;
+}
+.btn {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 80px 80px 80px 80px;
+  border: solid #000000 8px;
+  text-decoration: none;
+  margin : 20px;
+  position : relative;
+}
+
+.over{
+  background-color: red;
+  opacity : 0.5;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #000;
+  opacity: 0.5;
+}
